@@ -1,3 +1,49 @@
-// Place all the styles related to the Products controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+// Colors
+$teal: #244;
+$even-line-color: #e0f8f8;
+$odd-line-color: #f8b0f8;
+
+.products {
+  table {
+    border-collapse: collapse;
+
+    tr td {
+      padding: 5px;
+      vertical-align: top;
+    }
+  }
+
+  .list-image {
+    height: 70px;
+    width: 60px;
+  }
+
+  .list-description {
+    width: 60%;
+
+    dl,
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      color: $teal;
+      font-size: larger;
+      font-weight: bold;
+    }
+  }
+
+  .list-actions {
+    font-size: x-small;
+    padding-left: 1em;
+    text-align: right;
+  }
+
+  .list-line-even {
+    background-color: $even-line-color;
+  }
+
+  .list-line-odd {
+    background-color: $odd-line-color;
+  }
+}
