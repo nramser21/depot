@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+nueralyzer:
+  title: MIB Neuralyzer
+  description: Need to erase somebody's recent memories?
+  price: 250.00
+  image_url: app/assets/images/neuralyzer.jpg
