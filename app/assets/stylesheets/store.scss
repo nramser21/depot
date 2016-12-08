@@ -1,0 +1,48 @@
+$dark-blue: #226;
+$baby-blue: #77d;
+$blue: #44a;
+
+.store {
+  h1 {
+    border-bottom: 3px dotted $baby-blue;
+    color: $dark-blue;
+    font: 150% sans-serif;
+    margin: 0;
+    padding-bottom: .5em;
+  }
+
+  .entry {
+    border-bottom: 1px dotted $baby-blue;
+    margin-top: 1em;
+    min-height: 100px;
+    overflow: auto;
+
+    img {
+      margin-bottom: 5px;
+      margin-right: 5px;
+      position: absolute;
+      width: 80px;
+    }
+
+    h3 {
+      color: $dark-blue;
+      font-family: sans-serif;
+      font-size: 120%;
+      margin-bottom: 2px;
+      margin-left: 100px;
+    }
+
+    p,
+    div.price-line {
+      margin-bottom: .8em;
+      margin-left: 100px;
+      margin-top: .5em;
+    }
+
+    .price {
+      color: $blue;
+      font-weight: bold;
+      margin-right: 3em;
+    }
+  }
+}
